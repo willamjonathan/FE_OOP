@@ -10,4 +10,7 @@ public class Monkey implements Animal{
         this.weight = weight;
         this.food = food;
     }
+    public String toString() {
+        return this.name + " is a monkey. He weighs " + this.weight + " pounds and loves " + this.food + ".";
+    }
 }
