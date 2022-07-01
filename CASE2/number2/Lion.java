@@ -10,4 +10,7 @@ public class Lion implements Animal {
         this.weight = weight;
         this.meat = meat;
     }
+     public String toString() {
+        return this.name + " weighs " + this.weight + " pounds and consumes " + this.meat + " pounds of meat everyday";
+    }
 }
