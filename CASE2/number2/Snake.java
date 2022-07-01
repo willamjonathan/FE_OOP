@@ -1,3 +1,5 @@
+package Number2;
+
 public class Snake implements Animal{
     private String name;
     private int weight;
